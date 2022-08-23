@@ -27,10 +27,9 @@ header{
     /* Если ширину поставить 100%, то вёрстка съедет - это особенности position: fixed; */
     width: 1219px;
     background-color: #007765;
-    /* Три свойства ниже делают шапку прилипающей к верху экрана и центрируют ее по горизонталию 
-    position: fixed;
+    position: sticky;
     top: 0;
-    */
+    
 }
 header > a > img{
     float: left;
@@ -53,6 +52,7 @@ nav > a:hover{
     height: 403px;
     background: url(img/bc-img1.png);
     background-size: cover;
+    
 }
 #first-img > h1{
     color: #ffffff;

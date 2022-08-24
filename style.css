@@ -61,6 +61,7 @@ nav > a:hover{
     padding: 160px 0;
 }
 
+
 section{
     width: 100%;
     background-color: #EEEEEE;
@@ -99,26 +100,14 @@ p{
 }
 
 
-#team{
-    padding: 50px 40px 60px 40px;
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 figure{
-    display: inline-block;
-    width: 350px;
-    height: 283px;
-    margin: 0;
-}
-figure > img{
-    padding: 57px 91px 0 91px;
-}
-.left{
-    float: left;
-}
-.center{
-    margin: 0 29px;
-}
-.right{
-    float: right;
+    flex-basis: 25%;
+    text-align: center;
 }
 .names{
     color: #007765;
